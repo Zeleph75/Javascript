@@ -1,11 +1,12 @@
 // JavaScript source code
-const txtToAdd = document.querySelector('#txt-to-add');
+const txtToAdd = document.querySelector('#txt_to_add');
 const pList = document.querySelector('#myList p');
 const pArray = document.querySelector('#myArray p');
-const myArray = ['une ligne','autre chose'];
+const myArray = ['une ligne','autre chose','et encore'];
 
 function addText() {
-    if (txtToAdd.value !== '') {
+    if (txtToAdd.value !== '')
+    {
         pList.innerText += txtToAdd.value+ '\n'
         txtToAdd.value = '';
         
